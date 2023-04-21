@@ -1,5 +1,6 @@
 body{
     font-family: Hero, sans-serif;
+    font-size: 18px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -7,7 +8,6 @@ body{
 
 .about-section,
 .footer{
-    font-size: 18px;
     background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
@@ -28,7 +28,7 @@ body{
     width: auto;
 }
 
-.top{
+.header ul{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -37,8 +37,7 @@ body{
 }
 
 .introduction{
-    margin-top: 90px ;
-    margin-bottom: 90px;
+    margin: 90px auto;
     display: flex;
     gap: 32px;
     align-items: center;
@@ -67,10 +66,45 @@ body{
     border: none;
 }
 
+.info-section{
+    flex-direction: column;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    display: flex;
+    margin: 32px auto;
+}
+
+.info-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 90px;
+    gap: 40px;
+}
+
+.picture img{
+    height: 300px;
+    width: 210px;
+    object-fit: cover;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
+.picture div{
+    justify-content: center;
+    display: flex;
+    color: #1f2937;
+}
+
 .join-section{
     background-color: #3882f6;
 }
 
-.join-section .bot-button{
+.join-section button{
     border: 2px solid #f9faf8 ;
 }
