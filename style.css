@@ -101,6 +101,25 @@ body{
     color: #1f2937;
 }
 
+.quote-section{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 90px;
+}
+
+.quote-section em{
+    font-size: 36px;
+    color: #1f2937;
+    margin: auto 100px;
+}
+
+.quote-section div{
+    margin: auto 100px auto auto;
+}
+
 .join-section{
     background-color: #3882f6;
 }
